@@ -1,0 +1,82 @@
+feature,importance,std,lower,higher
+log(ecoregion breadth),0.089,0.092,0.070968,0.107032
+semidomestic,0.06,0.037,0.052748,0.067252
+log(crops cover),0.054,0.085,0.03734,0.07066
+spear shape of maxillary tip,0.05,0.041,0.041964,0.058036
+log(citations),0.047,0.021,0.042884,0.051116
+Pintomyia genus,0.039,0.018,0.035472,0.042528
+main habitat: annexes of domestic animals,0.037,0.021,0.032884,0.041116
+Bichromomyia genus,0.036,0.015,0.03306,0.03894
+temperature,0.035,0.036,0.027944,0.042056
+global human modification,0.032,0.046,0.022984,0.041016
+log(grass cover),0.03,0.035,0.02314,0.03686
+log(number of cibarium teeth),0.029,0.015,0.02606,0.03194
+number of lateral teeth,0.025,0.02,0.02108,0.02892
+domestic,0.024,0.035,0.01714,0.03086
+forest land integrity index,0.024,0.017,0.020668,0.027332
+ratio of Antennal segment 3 to wing length,0.022,0.019,0.018276,0.025724
+Psathyromyia genus,0.021,0.02,0.01708,0.02492
+log(tree cover),0.018,0.027,0.012708,0.023292
+log(labrum length),0.017,0.014,0.014256,0.019744
+log(urban cover),0.017,0.029,0.011316,0.022684
+wingl_wingw,0.016,0.012,0.013648,0.018352
+log.no.ven.teeth,0.015,0.015,0.01206,0.01794
+genus_Brumptomyia,0.014,0.013,0.011452,0.016548
+evi,0.014,0.018,0.010472,0.017528
+temp.range,0.013,0.021,0.008884,0.017116
+log.wind.speed,0.013,0.014,0.010256,0.015744
+canopy,0.012,0.015,0.00906,0.01494
+log.rainfall,0.012,0.015,0.00906,0.01494
+mh.fwsl,0.011,0.013,0.008452,0.013548
+mh.ab,0.011,0.014,0.008256,0.013744
+subtribe_Psychodopygina,0.01,0.011,0.007844,0.012156
+subtribe_Lutzomyiina,0.01,0.014,0.007256,0.012744
+wing.length,0.01,0.01,0.00804,0.01196
+mh.oihd,0.01,0.011,0.007844,0.012156
+mh.ma,0.009,0.021,0.004884,0.013116
+genus_Trichophoromyia,0.007,0.01,0.00504,0.00896
+mh.th,0.006,0.013,0.003452,0.008548
+genus_Martinsmyia,0.006,0.01,0.00404,0.00796
+mh.tttr,0.006,0.01,0.00404,0.00796
+b.tsdbf,0.006,0.012,0.003648,0.008352
+genus_Psychodopygus,0.006,0.011,0.003844,0.008156
+wild,0.006,0.012,0.003648,0.008352
+b.fgs,0.005,0.011,0.002844,0.007156
+bites.mammals,0.005,0.009,0.003236,0.006764
+b.tsmbf,0.005,0.009,0.003236,0.006764
+mh.ca,0.005,0.013,0.002452,0.007548
+mh.flfs,0.004,0.007,0.002628,0.005372
+genus_Nyssomyia,0.004,0.009,0.002236,0.005764
+genus_Lutzomyia,0.004,0.008,0.002432,0.005568
+b.montane,0.004,0.009,0.002236,0.005764
+genus_Evandromyia,0.004,0.009,0.002236,0.005764
+mh.cr,0.004,0.008,0.002432,0.005568
+log.water.seas.cover,0.004,0.009,0.002236,0.005764
+mh.tt,0.003,0.006,0.001824,0.004176
+genus_Micropygomyia,0.003,0.006,0.001824,0.004176
+hypoteeth_spiculate,0.003,0.007,0.001628,0.004372
+mh.bwa,0.003,0.007,0.001628,0.004372
+log.water.perm.cover,0.003,0.008,0.001432,0.004568
+b.dxs,0.002,0.007,0.000628,0.003372
+b.tsgss,0.001,0.003,0.000412,0.001588
+b.tscf,0.001,0.003,0.000412,0.001588
+hypoteeth_smooth,0.001,0.005,2.00E-05,0.00198
+hs.canopy,0.001,0.003,0.000412,0.001588
+hs.floor,0.001,0.003,0.000412,0.001588
+genus_Dampfomyia,0.001,0.004,0.000216,0.001784
+genus_Warileya,0,0,0,0
+genus_Viannamyia,0,0,0,0
+tribe_Phlebotomini,0,0,0,0
+genus_Deanemyia,0,0,0,0
+genus_Expapillata,0,0,0,0
+b.mangrove,0,0,0,0
+genus_Hertigia,0,0,0,0
+genus_Migonemyia,0,0.001,-0.000196,0.000196
+genus_Oligodontomyia,0,0,0,0
+b.tgss,0,0,0,0
+b.tcforest,0,0.002,-0.000392,0.000392
+b.tbmforest,0,0.003,-0.000588,0.000588
+genus_Sciopemyia,0,0,0,0
+genus_Trichopygomyia,0,0,0,0
+hypoteeth_rough,0,0,0,0
+genus_Pressatia,0,0,0,0

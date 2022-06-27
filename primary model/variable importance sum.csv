@@ -1,0 +1,30 @@
+feature,importance,lower,higher,radius
+log(citations),0.218,0.192128,0.243872,0.025872
+genus,0.116,0.105651,0.126349,0.010349
+log(ecoregion breadth),0.092,0.07142,0.11258,0.02058
+canopy height,0.071,0.050224,0.091776,0.020776
+synanthropy,0.068,0.0516179,0.084382,0.016382
+main habitat,0.061,0.051861,0.070139,0.0091387
+temperature range,0.045,0.037944,0.052056,0.007056
+global human modification,0.036,0.025808,0.046192,0.010192
+number of lateral teeth,0.032,0.02612,0.03788,0.00588
+log(rainfall),0.032,0.023768,0.040232,0.008232
+biome,0.032,0.02222,0.04178,0.0097804
+subtribe,0.029,0.023942,0.034158,0.0050582
+forest land integrity index,0.028,0.016436,0.039564,0.011564
+temperature,0.026,0.020512,0.031488,0.005488
+ratio of Antennal segment 3 to wing length,0.022,0.017296,0.026704,0.004704
+enhanced vegetation index,0.013,0.0081,0.0179,0.0049
+log(grass cover),0.012,0.005728,0.018272,0.006272
+log(tree cover),0.011,0.006688,0.015312,0.004312
+log(wind speed),0.011,0.007472,0.014528,0.003528
+log(number of ventrad teeth),0.008,0.005452,0.010548,0.002548
+wing length,0.007,0.004452,0.009548,0.002548
+ratio of wing length to wing width,0.007,0.004452,0.009548,0.002548
+log(crops cover),0.006,0.003452,0.008548,0.002548
+log(urban cover),0.005,0.001472,0.008528,0.003528
+spear shape of maxillary tip,0.004,0.001844,0.006156,0.002156
+log(number of cibarium teeth),0.003,0.00104,0.00496,0.00196
+log(labrum length),0.003,0.001236,0.004764,0.001764
+log(seasonal water cover),0.002,0.00102,0.00298,0.00098
+habitat strata,0.002,0.000628,0.003372,0.001372

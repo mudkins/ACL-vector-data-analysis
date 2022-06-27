@@ -1,0 +1,67 @@
+feature,importance
+temperature,35
+wing length,33
+log(labrum length),27
+ratio of wing length to wing width,27
+log(crops cover),24
+log(tree cover),23
+number of lateral teeth,22
+temperature range,21
+log(wind speed),21
+Psathyromyia genus,20
+forest land integrity index,18
+log(number of cibarium teeth),18
+global human modification,17
+spiculate structure of hypopharyngeal teeth,17
+semi domestic,16
+log(grass cover),15
+log(rainfall),15
+Trichophoromyia genus,14
+main habitat: marginal areas,13
+canopy height,13
+enhanced vegetation index,12
+ratio of Antennal segment 3 to wing length,12
+Micropygomyia genus,12
+mh.tt,11
+mh.ada,10
+log.no.ven.teeth,10
+genus_Dampfomyia,10
+genus_Psychodopygus,9
+mh.bwa,9
+mh.tttr,8
+log.ecoregion.breadth,8
+genus_Brumptomyia,8
+hs.canopy,8
+genus_Pintomyia,8
+mh.ab,7
+b.tsmbf,7
+log.water.seas.cover,6
+log.urban.cover,6
+subtribe_Psychodopygina,5
+mh.fwsl,5
+genus_Martinsmyia,4
+mh.flfs,4
+tribe_Phlebotomini,4
+mh.th,4
+b.dxs,4
+mh.oihd,4
+b.tsgss,3
+mh.ca,3
+hypoteeth_smooth,3
+wild,3
+hs.floor,3
+subtribe_Lutzomyiina,2
+genus_Sciopemyia,2
+genus_Warileya,2
+b.tsdbf,2
+b.fgs,2
+domestic,2
+hypoteeth_rough,2
+genus_Lutzomyia,2
+bites.mammals,1
+mh.cr,1
+log.water.perm.cover,1
+b.tgss,1
+genus_Deanemyia,1
+genus_Trichopygomyia,1
+b.mangrove,1
