@@ -1,0 +1,174 @@
+---
+title: "pdp data generation secondary"
+author: "Gowri Vadmal"
+date: "June 26, 2022"
+output: html_document
+---
+
+```{r}
+library(plyr)
+library(mi)
+library(data.table)
+library(dplyr)
+library(scales)
+library(mltools)
+library(psych)
+library(ggplot2)
+library(xgboost)
+library(pdp)           # for partial dependence plots
+library(Rcpp)
+library(pROC)
+```
+
+```{r}
+#load the trait data
+trait_data_wlabel = read.csv("trait data.csv")
+setDT(trait_data_wlabel)
+species = trait_data_wlabel[,1]
+#traits without species
+traits = trait_data_wlabel[,2:83]
+#label of leish
+leish = trait_data_wlabel[,83]
+```
+
+```{r}
+#get the parameter dataframe
+params = read.csv("top 10 parameters.csv")
+params = data.table(params)
+params[ , c('X') := NULL]
+
+#make max_depth, scale_pos_weight, and num_estimators into integers using floor()
+params$max_depth = floor(params$max_depth)
+params$scale_pos_weight = floor(params$scale_pos_weight)
+params$n_estimators = floor(params$n_estimators)
+```
+
+```{r}
+#train the 100 models, store them in a list, then create pdps
+ecoregion = list()
+semidomestic = list() #binary
+crops_cover = list()
+maxshape_spear = list() #binary
+citations = list()
+Pintomyia = list() #binary
+mh_ada = list() #binary
+Bichromomyia = list() #binary
+temp = list()
+ghm = list()
+grass_cover = list()
+no.cib.teeth = list()
+no.lat.teeth = list()
+domestic = list() #binary
+flii = list()
+A3_wingl = list()
+lateral = list()
+```
+
+
+```{r}
+#make for loop for the 10 param sets
+for (x in 1:10){
+  
+  ####get params####
+  
+  #n_estimators in python is nrounds in r
+  colsample = as.numeric(params[x, 'colsample_bytree'])
+  gam = as.numeric(params[x, 'gamma'])
+  lr = as.numeric(params[x, 'learning_rate'])
+  md = as.numeric(params[x, 'max_depth'])
+  rounds = as.numeric(params[x, 'n_estimators'])
+  spw = as.numeric(params[x, 'scale_pos_weight'])
+  
+  ####split data 10 times####
+  
+  for (s in 1:10){
+    ## test train split 80-20 ##
+    data1 = sort(sample(nrow(traits), nrow(traits)*.8))
+    #creating training data set by selecting the output row values
+    train1<-traits[data1,]
+    #creating test data set by not selecting the output row values
+    test<-traits[-data1,]
+    
+    #define predictor and response variables in training set
+    train_x = data.matrix(train1[, 1:81])
+    train_y = data.matrix(train1[,82])
+    
+    #the test ones are not necessary but just have them in case
+    #define predictor and response variables in testing set
+    test_x = data.matrix(test[, 1:81])
+    test_y = data.matrix(test[, 82])
+    
+    ####train model####
+    model = xgboost(data = train_x, label = train_y,
+                    colsample_bytree = colsample, gamma = gam, learning_rate = lr, max_depth = md,
+                    nrounds = rounds, scale_pos_weight = spw,
+                    booster = 'gbtree', eval_metric = 'logloss', objective = 'binary:logistic')
+    
+    #get partial dependencies of the binary variables
+    Bichromomyia = append(Bichromomyia, partial(model, pred.var = 'genus_Bichromomyia', train = train_x, prob=TRUE)[, c(1,2)])
+    Pintomyia = append(Pintomyia, partial(model, pred.var = 'genus_Pintomyia', train = train_x, prob=TRUE)[, c(1,2)])
+    domestic = append(domestic, partial(model, pred.var = 'domestic', train = train_x, prob=TRUE)[, c(1,2)])
+    semidomestic = append(semidomestic, partial(model, pred.var = 'semi.domestic', train = train_x, prob=TRUE)[, c(1,2)])
+    maxshape_spear = append(maxshape_spear, partial(model, pred.var = 'maxshape_spear', train = train_x, prob=TRUE)[, c(1, 2)])
+    mh_ada = append(mh_ada, partial(model, pred.var = 'mh.ada', train = train_x, prob=TRUE)[, c(1,2)])
+    
+    #get p. differences of the continuous variables
+    citations = append(citations, partial(model, pred.var = 'log.citations', train = train_x, prob = TRUE)[, c(1,2)])
+    ecoregion = append(ecoregion, partial(model, pred.var = 'log.ecoregion.breadth', train = train_x, prob=TRUE)[, c(1,2)])
+    crops_cover = append(crops_cover, partial(model, pred.var = 'log.crops.cover', train = train_x, prob=TRUE)[, c(1,2)])
+    grass_cover = append(grass_cover, partial(model, pred.var = 'log.grass.cover', train = train_x, prob=TRUE)[, c(1,2)])
+    ghm = append(ghm, partial(model, pred.var = 'ghm', train = train_x, prob=TRUE)[, c(1,2)])
+    lateral = append(lateral, partial(model, pred.var = 'no.lat.teeth', train = train_x, prob=TRUE)[, c(1,2)])
+    no.cib.teeth = append(no.cib.teeth, partial(model, pred.var = 'log.no.cib.teeth', train = train_x, prob=TRUE)[, c(1,2)])
+    flii = append(flii, partial(model, pred.var = 'flii', train = train_x, prob=TRUE)[, c(1,2)])
+    temp = append(temp, partial(model, pred.var = 'temp', train = train_x, prob=TRUE)[, c(1,2)])
+    A3_wingl = append(A3_wingl, partial(model, pred.var = 'A3_wingl', train = train_x, prob=TRUE)[, c(1,2)])
+
+  }
+  
+}
+```
+
+```{r}
+#save the binary variables into a dataframe
+write.csv(data.frame(Bichromomyia), 'Bichromomyia.csv')
+write.csv(data.frame(Pintomyia), 'Pintomyia.csv')
+write.csv(data.frame(domestic), 'domestic.csv')
+write.csv(data.frame(semidomestic), 'semidomestic.csv')
+write.csv(data.frame(maxshape_spear), 'maxshape_spear.csv')
+write.csv(data.frame(mh_ada), 'mh_ada.csv')
+
+
+
+lapply(1:length(citations), function(x) write.table(t(as.data.frame(citations[x])), 
+                                              'citations.csv', append= T, sep=',', 
+                                              quote = F, col.names = F))
+lapply(1:length(crops_cover), function(x) write.table(t(as.data.frame(crops_cover[x])),
+                                              'crops_cover.csv', append= T, sep=',',
+                                              quote = F, col.names = F))
+lapply(1:length(ecoregion), function(x) write.table(t(as.data.frame(ecoregion[x])), 
+                                              'ecoregion.csv', append= T, sep=',', 
+                                              quote = F, col.names = F))
+lapply(1:length(grass_cover), function(x) write.table(t(as.data.frame(grass_cover[x])), 
+                                              'grass_cover.csv', append= T, sep=',', 
+                                              quote = F, col.names = F))
+lapply(1:length(ghm), function(x) write.table(t(as.data.frame(ghm[x])), 
+                                              'ghm.csv', append= T, sep=',', 
+                                              quote = F, col.names = F))
+lapply(1:length(flii), function(x) write.table(t(as.data.frame(flii[x])), 
+                                              'flii.csv', append= T, sep=',', 
+                                              quote = F, col.names = F))
+lapply(1:length(lateral), function(x) write.table(t(as.data.frame(lateral[x])), 
+                                              'lateral.csv', append= T, sep=',', 
+                                              quote = F, col.names = F))
+lapply(1:length(no.cib.teeth), function(x) write.table(t(as.data.frame(no.cib.teeth[x])), 
+                                              'no.cib.teeth.csv', append= T, sep=',', 
+                                              quote = F, col.names = F))
+lapply(1:length(temp), function(x) write.table(t(as.data.frame(temp[x])), 
+                                              'temp.csv', append= T, sep=',', 
+                                              quote = F, col.names = F))
+lapply(1:length(A3_wingl), function(x) write.table(t(as.data.frame(A3_wingl[x])), 
+                                              'A3_wingl.csv', append= T, sep=',', 
+                                              quote = F, col.names = F))
+```
+
