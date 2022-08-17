@@ -1,0 +1,49 @@
+---
+title: "sandfly gbif"
+output: html_document
+---
+```{r}
+#load the rgbif library
+library(rgbif)
+#read in the entire traits csv
+traits <- read.csv(file = 'vector_trait.csv', stringsAsFactors = FALSE)
+#create an empty dataframe and name the first column 'scientificName'
+df <- data.frame(traits$species)
+names(df)[1] <- "scientificName"
+df
+write.csv(df,"C:\\Users\\GarlicSauce\\.R\\vectorname.csv", row.names = TRUE)
+```
+
+```{r}
+#create just a row of all the species names to input into the rgbif database
+species <- df[]
+for (i in 1:length(traits)){
+   spec <- traits$species[i]
+   species[['scientificName']][i] <- spec
+}
+species
+```
+
+```{r}
+#create a dataframe with the scientificname, and all the occurrences of the sandfly
+latlong <- data.frame()
+#for loop to get 
+for (i in 1:512){
+   b <- data.frame(occ_search(scientificName = species$scientificName[i])$data)
+#filter so that only the recorded occurrences are in the dataframe
+   if("decimalLatitude" %in% colnames(b)){
+     c <- subset(b, select=c("scientificName", "decimalLatitude", "decimalLongitude"))
+     #some of the occurrences have weird names, so we just rename that column to their scientific name
+     c[1:nrow(b), 1] <- species$scientificName[i]
+     latlong <- rbind(latlong, c)
+   }
+}
+latlong
+```
+
+```{r}
+#get rid of all the occurrences with no lat longs and create a csv
+g <- na.omit(latlong)
+write.csv(g,"C:\\Users\\GarlicSauce\\.R\\latlong.csv", row.names = TRUE)
+```
+
