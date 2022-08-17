@@ -1,0 +1,34 @@
+---
+title: "PubMed Counts"
+author: "Gowri Vadmal"
+date: "May 12, 2021"
+output: html_document
+---
+
+```{r}
+#install and call the package
+install.packages('RISmed')
+library(RISmed)
+
+#read the traits
+traits <- read.csv('final/vector traits with biogeo biome ecoreg.csv')
+##Collect the names of all the species in our traits set
+names <- traits$species
+
+
+#test a randon species
+res <- EUtilsSummary('Brumptomyia virgensi', type = 'esearch', db = 'pubmed')
+QueryCount(res)
+
+#make for loop for each species
+for (x in 1:512){
+  res <- EUtilsSummary(names[x], type = 'esearch', db = 'pubmed', retmax=500)
+  pubmed.count[x] <- QueryCount(res)
+  Sys.sleep(0.3)
+}
+
+#add to the data csv
+traits$citations <- pubmed.count
+#export to your computer
+write.csv(traits, 'final/vector trait data.csv')
+```
