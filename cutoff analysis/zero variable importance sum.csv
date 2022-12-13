@@ -1,0 +1,35 @@
+feature,importance
+citations,0.188
+canopy,0.108
+genus,0.107
+main habitat,0.08
+flii,0.053
+synanthropy,0.052
+ghm,0.045
+no.lat.teeth,0.041
+ecoregion.breadth,0.032
+temp.range,0.028
+seasonality,0.028
+biome,0.019
+rainfall,0.019
+subtribe,0.019
+temp,0.015
+tree.cover,0.014
+water.perm.cover,0.012
+evi,0.01
+labrum.length,0.01
+wind.speed,0.009
+A3_wingl,0.009
+grass.cover,0.009
+activity,0.009
+habitat strata,0.007
+urban.cover,0.007
+no.ven.teeth,0.007
+wing.length,0.007
+crops.cover,0.007
+no.cib.teeth,0.003
+water.seas.cover,0.003
+wingl_wingw,0.003
+proximity to house,0.003
+gonotrophic,0.002
+synarthropy index,0.001

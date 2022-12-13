@@ -1,0 +1,513 @@
+,species,probability,std,percentile,potential/proven
+0,Bichromomyia flaviscutellata,0.943,0.05,1.0,2.0
+1,Nyssomyia whitmani,0.917,0.044,0.998,2.0
+2,Psychodopygus carrerai,0.916,0.055,0.996,2.0
+3,Nyssomyia intermedia,0.914,0.043,0.994,2.0
+4,Psathyromyia (Psathyromyia) shannoni,0.912,0.066,0.992,2.0
+5,Psychodopygus davisi,0.912,0.044,0.99,2.0
+6,Psychodopygus wellcomei,0.91,0.089,0.988,2.0
+7,Lutzomyia (Lutzomyia) longipalpis,0.898,0.07,0.986,2.0
+8,Psychodopygus ayrozai,0.898,0.066,0.984,2.0
+9,Migonemyia (Migonemyia) migonei,0.894,0.115,0.982,2.0
+10,Nyssomyia yuilli,0.879,0.057,0.98,2.0
+11,Psychodopygus panamensis,0.878,0.086,0.979,2.0
+12,Nyssomyia trapidoi,0.876,0.078,0.977,2.0
+13,Psychodopygus complexus,0.876,0.114,0.975,2.0
+14,Nyssomyia neivai,0.874,0.124,0.973,2.0
+15,Pintomyia (Pintomyia) fischeri,0.872,0.136,0.971,2.0
+16,Trichophoromyia ubiquitalis,0.872,0.097,0.969,2.0
+17,Psychodopygus hirsutus,0.864,0.077,0.967,2.0
+18,Nyssomyia umbratilis,0.848,0.132,0.965,2.0
+19,Psychodopygus amazonensis,0.847,0.085,0.963,1.0
+20,Nyssomyia anduzei,0.845,0.155,0.961,2.0
+21,Nyssomyia antunesi,0.839,0.089,0.959,1.0
+22,Pintomyia (Pifanomyia) verrucarum,0.837,0.182,0.957,2.0
+23,Nyssomyia shawi,0.812,0.123,0.955,2.0
+24,Psychodopygus guyanensis,0.803,0.113,0.953,0.0
+25,Psychodopygus squamiventris maripaensis,0.8,0.119,0.951,2.0
+26,Psychodopygus claustrei,0.798,0.091,0.949,0.0
+27,Psychodopygus llanosmartinsi,0.788,0.122,0.947,2.0
+28,Pintomyia (Pifanomyia) spinicrassa,0.788,0.18,0.945,2.0
+29,Pintomyia (Pintomyia) pessoai,0.787,0.15,0.943,1.0
+30,Psychodopygus paraensis,0.772,0.21,0.941,2.0
+31,Lutzomyia (Helcocyrtomyia) hartmanni,0.77,0.145,0.939,2.0
+32,Trichophoromyia auraensis,0.761,0.154,0.938,1.0
+33,Pintomyia nuneztovari,0.758,0.199,0.936,2.0
+34,Psathyromyia (Psathyromyia) bigeniculata,0.739,0.111,0.934,0.0
+35,Lutzomyia (Tricholateralis) gomezi,0.738,0.192,0.932,2.0
+36,Bichromomyia olmeca olmeca,0.709,0.199,0.93,2.0
+37,Lutzomyia (Helcocyrtomyia) peruensis,0.691,0.259,0.928,2.0
+38,Bichromomyia reducta,0.67,0.207,0.926,2.0
+39,Psychodopygus chagasi,0.646,0.167,0.924,0.0
+40,Bichromomyia olmeca nociva,0.63,0.208,0.922,2.0
+41,Trichophoromyia castanheirai,0.598,0.17,0.92,0.0
+42,Psathyromyia (Psathyromyia) lanei,0.598,0.169,0.918,0.0
+43,Sciopemyia sordellii,0.586,0.164,0.916,1.0
+44,Brumptomyia avellari,0.581,0.163,0.914,0.0
+45,Warileya rotundipennis,0.574,0.183,0.912,0.0
+46,Lutzomyia (Helcocyrtomyia) ayacuchensis,0.57,0.196,0.91,2.0
+47,Evandromyia (Evandromyia) infraspinosa,0.568,0.198,0.907,0.0
+48,Pressatia choti,0.568,0.153,0.907,0.0
+49,Micropygomyia (Sauromyia) venezuelensis,0.538,0.168,0.904,0.0
+50,Psychodopygus dorlinsis,0.534,0.189,0.902,0.0
+51,Psychodopygus lainsoni,0.523,0.177,0.9,0.0
+52,Lutzomyia (Lutzomyia) lichyi,0.519,0.17,0.898,1.0
+53,Trichophoromyia loretonensis,0.494,0.159,0.896,0.0
+54,Lutzomyia (Lutzomyia) renei,0.475,0.197,0.895,0.0
+55,Trichophoromyia ininii,0.475,0.168,0.893,0.0
+56,Brumptomyia guimaraesi,0.474,0.197,0.891,0.0
+57,Brumptomyia brumpti,0.472,0.172,0.889,0.0
+58,Psychodopygus squamiventris squamiventris,0.464,0.169,0.887,2.0
+59,Pintomyia (Pifanomyia) robusta,0.459,0.171,0.885,0.0
+60,Psychodopygus yucumensis,0.454,0.174,0.883,0.0
+61,Pintomyia (Pintomyia) christenseni,0.452,0.21,0.881,0.0
+62,Psychodopygus lloydi,0.44,0.159,0.879,1.0
+63,Pintomyia (Pifanomyia) maranonensis,0.438,0.17,0.877,0.0
+64,Lutzomyia (Lutzomyia) cruzi,0.423,0.181,0.875,1.0
+65,Brumptomyia cunhai,0.422,0.187,0.872,0.0
+66,Expapillata firmatoi,0.422,0.194,0.872,0.0
+67,Brumptomyia nitzulescui,0.419,0.186,0.869,0.0
+68,Bichromomyia olmeca bicolor,0.409,0.191,0.867,1.0
+69,Nyssomyia richardwardi,0.404,0.197,0.865,0.0
+70,Pintomyia (Pifanomyia) ovallesi,0.402,0.185,0.863,2.0
+71,Psathyromyia (Psathyromyia) punctigeniculata,0.381,0.17,0.861,0.0
+72,Bichromomyia inornata,0.374,0.17,0.859,0.0
+73,Lutzomyia (Lutzomyia) cavernicola,0.373,0.19,0.857,0.0
+74,Pintomyia (Pifanomyia) pacae,0.365,0.176,0.855,0.0
+75,Lutzomyia (Lutzomyia) forattinii,0.353,0.159,0.854,0.0
+76,Pintomyia (Pifanomyia) evansi,0.345,0.159,0.852,0.0
+77,Psathyromyia (Psathyromyia) dendrophyla,0.345,0.139,0.85,0.0
+78,Micropygomyia (Sauromyia) trinidadensis,0.339,0.171,0.848,1.0
+79,Viannamyia tuberculata,0.333,0.149,0.846,0.0
+80,Viannamyia furcata,0.332,0.157,0.844,0.0
+81,Psychodopygus douradoi,0.326,0.135,0.842,0.0
+82,Pintomyia (Pifanomyia) monticola,0.323,0.186,0.84,1.0
+83,Pintomyia (Pintomyia) bianchigalatiae,0.321,0.143,0.838,0.0
+84,Evandromyia (Aldamyia) walkeri,0.311,0.143,0.836,0.0
+85,Evandromyia (Aldamyia) evandroi,0.307,0.141,0.834,0.0
+86,Psychodopygus parimaensis,0.303,0.136,0.832,0.0
+87,Evandromyia (Aldamyia) lenti,0.303,0.182,0.83,1.0
+88,Lutzomyia (Helcocyrtomyia) castanea,0.302,0.153,0.828,0.0
+89,Martinsmyia pisuquia,0.3,0.131,0.825,0.0
+90,Martinsmyia mollinedoi,0.3,0.131,0.825,0.0
+91,Lutzomyia (Helcocyrtomyia) scorzai,0.296,0.152,0.822,0.0
+92,Pintomyia maracayensis,0.295,0.143,0.82,0.0
+93,Martinsmyia brisolai,0.288,0.13,0.818,0.0
+94,Brumptomyia carvalheiroi,0.283,0.179,0.816,0.0
+95,Brumptomyia troglodytes,0.282,0.156,0.814,0.0
+96,Pintomyia (Pifanomyia) nevesi,0.28,0.175,0.812,0.0
+97,Psathyromyia (Forattiniella) pascalei,0.264,0.154,0.811,0.0
+98,Trichophoromyia brachipyga,0.263,0.141,0.809,0.0
+99,Warileya euniceae,0.26,0.14,0.807,0.0
+100,Psychodopygus geniculatus,0.259,0.125,0.805,0.0
+101,Trichophoromyia arevaloi,0.255,0.121,0.799,0.0
+102,Trichophoromyia acostai,0.255,0.121,0.799,0.0
+103,Trichophoromyia incasica,0.255,0.121,0.799,0.0
+104,Trichophoromyia cellulana,0.255,0.121,0.799,0.0
+105,Trichophoromyia saltuosa,0.255,0.121,0.799,0.0
+106,Trichophoromyia reinerti,0.251,0.119,0.793,0.0
+107,Trichophoromyia wilkersoni,0.251,0.122,0.791,0.0
+108,Trichopygomyia triramula,0.25,0.134,0.789,0.0
+109,Micropygomyia (Micropygomyia) schreiberi,0.248,0.169,0.787,0.0
+110,Pintomyia (Pifanomyia) serrana,0.248,0.156,0.785,0.0
+111,Trichophoromyia rostrans,0.246,0.12,0.782,0.0
+112,Trichophoromyia pastazaensis,0.246,0.122,0.782,0.0
+113,Micropygomyia (Micropygomyia) chassigneti,0.243,0.159,0.779,0.0
+114,Lutzomyia (Lutzomyia) pseudolongipalpis,0.239,0.116,0.777,0.0
+115,Psathyromyia (Forattiniella) carpenteri,0.238,0.118,0.775,0.0
+116,Pintomyia (Pintomyia) damascenoi,0.238,0.131,0.773,0.0
+117,Dampfomyia caminoi,0.238,0.119,0.771,0.0
+118,Lutzomyia (Helcocyrtomyia) tolimensis,0.236,0.129,0.77,0.0
+119,Sciopemyia vattierae,0.236,0.141,0.768,0.0
+120,Lutzomyia (Helcocyrtomyia) munaypata,0.234,0.148,0.765,0.0
+121,Trichophoromyia nemorosa,0.234,0.114,0.765,0.0
+122,Trichophoromyia viannamartinsi,0.234,0.123,0.762,0.0
+123,Psychodopygus thula,0.231,0.122,0.76,0.0
+124,Evandromyia (Barrettomyia) tupynambai,0.23,0.158,0.758,0.0
+125,Lutzomyia (Lutzomyia) almerioi,0.224,0.131,0.756,0.0
+126,Psathyromyia (Psathyromyia) abonnenci,0.221,0.169,0.754,0.0
+127,Lutzomyia (Helcocyrtomyia) pescei,0.22,0.144,0.752,1.0
+128,Martinsmyia minasensis,0.219,0.149,0.75,1.0
+129,Evandromyia edwardsi,0.214,0.176,0.748,1.0
+130,Warileya nigrosaccula,0.214,0.117,0.746,0.0
+131,Pintomyia naiffi,0.212,0.143,0.744,0.0
+132,Psathyromyia (Forattiniella) aragaoi,0.211,0.113,0.742,0.0
+133,Evandromyia (Evandromyia) rupicola,0.209,0.132,0.74,0.0
+134,Hertigia hertigi,0.208,0.126,0.738,0.0
+135,Evandromyia (Evandromyia) saulensis,0.206,0.192,0.736,0.0
+136,Lutzomyia chotensis,0.206,0.122,0.732,0.0
+137,Brumptomyia quimperi,0.206,0.123,0.732,0.0
+138,Lutzomyia tanyopsis,0.206,0.122,0.732,0.0
+139,Psathyromyia (Xiphopsathyromyia) aclydifera,0.204,0.1,0.729,0.0
+140,Martinsmyia oliveirai,0.196,0.135,0.727,0.0
+141,Trichophoromyia clitella,0.193,0.088,0.725,0.0
+142,Pintomyia (Pifanomyia) pia,0.192,0.089,0.721,1.0
+143,Pintomyia (Pifanomyia) reclusa,0.192,0.095,0.721,0.0
+144,Pintomyia (Pifanomyia) deorsa,0.192,0.121,0.721,0.0
+145,Psathyromyia (Forattiniella) runoides,0.192,0.099,0.717,0.0
+146,Brumptomyia galindoi,0.192,0.148,0.715,0.0
+147,Lutzomyia (Helcocyrtomyia) sanguinaria,0.191,0.12,0.713,1.0
+148,Micropygomyia (Micropygomyia) micropyga,0.191,0.136,0.711,0.0
+149,Brumptomyia mesai,0.191,0.107,0.709,0.0
+150,Psathyromyia (Forattiniella) brasiliensis,0.189,0.12,0.707,0.0
+151,Lutzomyia (Tricholateralis) cruciata,0.188,0.117,0.705,1.0
+152,Psathyromyia (Xiphopsathyromyia) dreisbachi,0.187,0.095,0.703,0.0
+153,Pintomyia (Pifanomyia) itza,0.185,0.09,0.674,0.0
+154,Pintomyia (Pifanomyia) columbiana,0.185,0.09,0.674,1.0
+155,Pintomyia (Pifanomyia) oresbia,0.185,0.09,0.674,0.0
+156,Pintomyia (Pifanomyia) amilcari,0.185,0.09,0.674,0.0
+157,Pintomyia (Pifanomyia) novoae,0.185,0.09,0.674,0.0
+158,Pintomyia (Pifanomyia) andina,0.185,0.09,0.674,0.0
+159,Pintomyia (Pifanomyia) antioquiensis,0.185,0.09,0.674,0.0
+160,Pintomyia (Pifanomyia) aulari,0.185,0.09,0.674,0.0
+161,Pintomyia (Pifanomyia) quasitownsendi,0.185,0.09,0.674,0.0
+162,Pintomyia diamantinensis,0.185,0.09,0.674,0.0
+163,Pintomyia (Pifanomyia) nadiae,0.185,0.09,0.674,0.0
+164,Pintomyia (Pifanomyia) boliviana,0.185,0.09,0.674,0.0
+165,Pintomyia (Pifanomyia) cajamarcensis,0.185,0.09,0.674,0.0
+166,Pintomyia (Pifanomyia) christophei,0.185,0.09,0.674,1.0
+167,Pintomyia (Pifanomyia) moralesi,0.185,0.09,0.674,0.0
+168,Pintomyia (Pifanomyia) torrealbai,0.185,0.09,0.674,0.0
+169,Pintomyia (Pifanomyia) diazi,0.185,0.09,0.674,0.0
+170,Pintomyia (Pifanomyia) youngi,0.185,0.09,0.674,2.0
+171,Pintomyia rangeliana,0.185,0.09,0.674,0.0
+172,Pintomyia (Pifanomyia) sauroida,0.185,0.09,0.674,0.0
+173,Pintomyia (Pifanomyia) emberai,0.185,0.09,0.674,0.0
+174,Pintomyia (Pifanomyia) ottolinai,0.185,0.09,0.674,0.0
+175,Pintomyia (Pifanomyia) longiflocosa,0.185,0.09,0.674,1.0
+176,Pintomyia (Pifanomyia) townsendi,0.185,0.09,0.674,1.0
+177,Pintomyia (Pifanomyia) torvida,0.185,0.09,0.674,0.0
+178,Pintomyia (Pifanomyia) guilvardae,0.185,0.09,0.674,0.0
+179,Pintomyia (Pifanomyia) torresi,0.185,0.09,0.674,0.0
+180,Pintomyia (Pifanomyia) valderramai,0.185,0.09,0.674,0.0
+181,Pintomyia (Pifanomyia) disjuncta,0.185,0.09,0.674,0.0
+182,Lutzomyia (Lutzomyia) bicornuta,0.185,0.124,0.645,0.0
+183,Micropygomyia (Sauromyia) villelai,0.185,0.121,0.643,1.0
+184,Psathyromyia (Forattiniella) barrettoi barrettoi,0.184,0.084,0.641,0.0
+185,Pintomyia (Pintomyia) gibsoni,0.183,0.087,0.638,0.0
+186,Pintomyia (Pifanomyia) piedraferroi,0.183,0.087,0.638,0.0
+187,Pintomyia (Pifanomyia) limafalcaoae,0.183,0.09,0.632,0.0
+188,Pintomyia (Pifanomyia) tihuiliensis,0.183,0.086,0.632,0.0
+189,Pintomyia (Pifanomyia) suapiensis,0.183,0.086,0.632,0.0
+190,Pintomyia (Pifanomyia) tocaniensis,0.183,0.086,0.632,0.0
+191,Lutzomyia (Helcocyrtomyia) tejadai,0.182,0.117,0.627,1.0
+192,Psychodopygus bispinosus,0.18,0.092,0.625,0.0
+193,Lutzomyia (Lutzomyia) bifoliata,0.179,0.109,0.622,0.0
+194,Brumptomyia beaupertuyi,0.179,0.104,0.622,0.0
+195,Brumptomyia figueireidoi,0.178,0.122,0.618,0.0
+196,Brumptomyia virgensi,0.178,0.122,0.618,0.0
+197,Lutzomyia (Helcocyrtomyia) caballeroi,0.176,0.095,0.615,0.0
+198,Evandromyia (Aldamyia) carmelinoi,0.176,0.171,0.613,0.0
+199,Lutzomyia (Helcocyrtomyia) noguchii,0.174,0.111,0.611,1.0
+200,Sciopemyia preclara,0.173,0.105,0.608,0.0
+201,Micropygomyia (Sauromyia) rorotaensis,0.173,0.116,0.608,0.0
+202,Evandromyia (Evandromyia) bourrouli,0.173,0.136,0.605,0.0
+203,Trichophoromyia eurypyga,0.171,0.113,0.604,0.0
+204,Sciopemyia fluviatilis,0.169,0.088,0.602,0.0
+205,Micropygomyia (Sauromyia) pusilla,0.168,0.139,0.599,0.0
+206,Lutzomyia (Tricholateralis) sherlocki,0.168,0.1,0.599,0.0
+207,Psathyromyia (Psathyromyia) scaffi,0.168,0.112,0.596,0.0
+208,Pintomyia (Pifanomyia) orestes,0.168,0.12,0.594,0.0
+209,Psathyromyia (Psathyromyia) campbelli,0.165,0.104,0.591,0.0
+210,Psathyromyia (Forattiniella) lutziana,0.165,0.102,0.591,0.0
+211,Evandromyia (Barrettomyia) monstruosa,0.165,0.114,0.588,0.0
+212,Trichophoromyia sinuosa,0.165,0.102,0.586,0.0
+213,Pressatia dysponeta,0.162,0.096,0.584,0.0
+214,Lutzomyia (Tricholateralis) falcata,0.161,0.102,0.582,0.0
+215,Brumptomyia hamata,0.16,0.103,0.58,0.0
+216,Lutzomyia (Tricholateralis) cultellata,0.16,0.103,0.578,0.0
+217,Trichophoromyia flochi,0.159,0.071,0.576,0.0
+218,Nyssomyia sylvicola,0.158,0.079,0.574,0.0
+219,Lutzomyia (Lutzomyia) battistinii,0.158,0.088,0.572,0.0
+220,Psathyromyia (Xiphopsathyromyia) hermanlenti,0.157,0.099,0.57,0.0
+221,Psathyromyia (Forattiniella) abunaensis,0.157,0.086,0.568,0.0
+222,Dampfomyia (Coromyia) deleoni,0.156,0.103,0.566,0.0
+223,Micropygomyia (Sauromyia) capixaba,0.156,0.131,0.564,1.0
+224,Psychodopygus corossoniensis,0.154,0.077,0.562,0.0
+225,Pressatia triacantha,0.15,0.096,0.561,0.0
+226,Brumptomyia leopoldoi,0.15,0.093,0.559,0.0
+227,Pintomyia (Pifanomyia) misionensis,0.148,0.09,0.557,0.0
+228,Psathyromyia (Xiphopsathyromyia) ruparupa,0.148,0.094,0.555,0.0
+229,Evandromyia (Evandromyia) begonae,0.147,0.087,0.553,0.0
+230,Micropygomyia (Sauromyia) quinquefer,0.147,0.085,0.551,0.0
+231,Trichopygomyia dasypodogeton,0.146,0.084,0.549,0.0
+232,Micropygomyia (Sauromyia) dereuri,0.146,0.076,0.546,0.0
+233,Micropygomyia (Sauromyia) quechua,0.146,0.076,0.546,0.0
+234,Pintomyia (Pifanomyia) odax,0.145,0.086,0.543,0.0
+235,Martinsmyia alphabetica,0.141,0.085,0.54,0.0
+236,Dampfomyia (Dampfomyia) permira,0.141,0.096,0.54,0.0
+237,Pintomyia (Pintomyia) mamedei,0.141,0.091,0.537,0.0
+238,Pintomyia (Pifanomyia) gruta,0.138,0.091,0.534,0.0
+239,Pintomyia (Pintomyia) kuscheli,0.138,0.091,0.534,0.0
+240,Nyssomyia ylephiletor,0.138,0.078,0.531,1.0
+241,Psathyromyia (Psathyromyia) limai,0.137,0.093,0.529,0.0
+242,Migonemyia (Migonemyia) vaniae,0.137,0.083,0.527,0.0
+243,Lutzomyia (Lutzomyia) ischnacantha,0.137,0.102,0.525,0.0
+244,Trichophoromyia ruifreitasi,0.136,0.075,0.523,0.0
+245,Sciopemyia microps,0.133,0.087,0.521,0.0
+246,Micropygomyia (Micropygomyia) cubensis,0.133,0.057,0.52,0.0
+247,Lutzomyia (Tricholateralis) carvalhoi,0.132,0.103,0.518,0.0
+248,Psathyromyia (Psathyromyia) undulata,0.132,0.073,0.515,0.0
+249,Dampfomyia (Coromyia) steatopyga,0.132,0.061,0.515,0.0
+250,Evandromyia (Aldamyia) bacula,0.132,0.071,0.512,0.0
+251,Trichopygomyia longispina,0.13,0.086,0.51,0.0
+252,Brumptomyia pintoi,0.13,0.091,0.508,0.0
+253,Psathyromyia (Psathyromyia) cratifer,0.129,0.078,0.506,0.0
+254,Lutzomyia (Helcocyrtomyia) quillabamba,0.127,0.058,0.504,0.0
+255,Dampfomyia (Coromyia) beltrani,0.124,0.081,0.502,0.0
+256,Sciopemyia servulolimai,0.123,0.13,0.5,0.0
+257,Lutzomyia (Lutzomyia) dispar,0.123,0.117,0.498,0.0
+258,Micropygomyia (Micropygomyia) cayennensis cayennensis,0.121,0.085,0.496,0.0
+259,Evandromyia (Evandromyia) pinottii,0.121,0.081,0.494,0.0
+260,Sciopemyia nematoducta,0.12,0.076,0.492,0.0
+261,Evandromyia (Aldamyia) andersoni,0.12,0.076,0.49,0.0
+262,Micropygomyia (Micropygomyia) cayennensis maciasi,0.119,0.075,0.488,0.0
+263,Trichopygomyia depaquiti,0.117,0.053,0.486,0.0
+264,Lutzomyia (Tricholateralis) diabolica,0.116,0.061,0.484,1.0
+265,Migonemyia (Blancasmyia) gorbitzi,0.115,0.056,0.482,0.0
+266,Psathyromyia (Forattiniella) inflata,0.115,0.06,0.48,0.0
+267,Psychodopygus arthuri,0.115,0.058,0.478,0.0
+268,Evandromyia (Barrettomyia) cortelezzii,0.115,0.079,0.478,0.0
+269,Micropygomyia (Silvamyia) acanthopharynx,0.114,0.088,0.475,0.0
+270,Deanemyia maruaga,0.112,0.069,0.473,0.0
+271,Trichopygomyia trichopyga,0.111,0.069,0.471,0.0
+272,Evandromyia (Aldamyia) sericea,0.111,0.077,0.469,0.0
+273,Micropygomyia (Coquillettimyia) chiapanensis,0.11,0.048,0.467,0.0
+274,Evandromyia (Aldamyia) termitophila,0.11,0.093,0.465,0.0
+275,Evandromyia (Evandromyia) brachyphalla,0.11,0.078,0.463,0.0
+276,Micropygomyia (Sauromyia) peresi,0.109,0.052,0.461,1.0
+277,Nyssomyia delsionatali,0.109,0.057,0.459,0.0
+278,Nyssomyia urbinatti,0.107,0.058,0.457,0.0
+279,Lutzomyia (Tricholateralis) spathotrichia,0.107,0.087,0.455,0.0
+280,Micropygomyia (Sauromyia) oswaldoi,0.107,0.071,0.453,0.0
+281,Trichophoromyia adelsonsouzai,0.106,0.058,0.451,0.0
+282,Evandromyia (Evandromyia) grimaldii,0.105,0.067,0.449,0.0
+283,Pressatia trispinosa,0.104,0.079,0.447,0.0
+284,Psathyromyia (Psathyromyia) baratai,0.103,0.057,0.445,0.0
+285,Pressatia equatorialis,0.102,0.073,0.443,0.0
+286,Martinsmyia reginae,0.102,0.057,0.441,0.0
+287,Micropygomyia (Coquillettimyia) vexator,0.102,0.058,0.439,0.0
+288,Psychodopygus francoisleponti,0.102,0.044,0.437,0.0
+289,Psychodopygus luisleoni,0.102,0.044,0.437,0.0
+290,Lutzomyia (Tricholateralis) marinkellei,0.102,0.072,0.434,0.0
+291,Micropygomyia (Sauromyia) longipennis,0.102,0.08,0.432,0.0
+292,Brumptomyia cardosoi,0.101,0.068,0.43,0.0
+293,Lutzomyia (Tricholateralis) flabellata,0.1,0.07,0.428,0.0
+294,Lutzomyia (Lutzomyia) gaminarai,0.1,0.085,0.426,0.0
+295,Lutzomyia (Tricholateralis) evangelistai,0.099,0.088,0.424,0.0
+296,Psychodopygus killicki,0.098,0.044,0.422,0.0
+297,Psychodopygus nocticolus,0.098,0.042,0.416,0.0
+298,Psychodopygus fairtigi,0.098,0.042,0.416,0.0
+299,Psychodopygus yasuniensis,0.098,0.042,0.416,0.0
+300,Psychodopygus recurvus,0.098,0.042,0.416,0.0
+301,Psychodopygus joliveti,0.098,0.042,0.416,0.0
+302,Psychodopygus leonidasdeanei,0.097,0.052,0.41,0.0
+303,Viannamyia fariasi,0.097,0.043,0.408,0.0
+304,Warileya phlebotomanica,0.096,0.055,0.406,0.0
+305,Psychodopygus bernalei,0.096,0.046,0.404,0.0
+306,Migonemyia (Blancasmyia) bursiformis,0.096,0.069,0.402,0.0
+307,Psathyromyia (Psathyromyia) ribeirensis,0.096,0.059,0.4,0.0
+308,Psychodopygus nicaraguensis,0.094,0.044,0.398,0.0
+309,Micropygomyia (Micropygomyia) duppyorum,0.094,0.057,0.396,0.0
+310,Pressatia calcarata,0.093,0.068,0.395,0.0
+311,Evandromyia (Barrettomyia) corumbaensis,0.093,0.047,0.393,0.0
+312,Psychodopygus fairchildi,0.093,0.043,0.39,0.0
+313,Psychodopygus matosi,0.093,0.045,0.39,0.0
+314,Brumptomyia spinosipes,0.091,0.073,0.387,0.0
+315,Evandromyia (Barrettomyia) sallesi,0.09,0.067,0.385,0.0
+316,Pressatia camposi,0.089,0.039,0.383,0.0
+317,Evandromyia (Barrettomyia) spelunca,0.087,0.059,0.381,0.0
+318,Psathyromyia (Forattiniella) campograndensis,0.086,0.04,0.379,0.0
+319,Micropygomyia (Sauromyia) petari,0.086,0.06,0.377,0.0
+320,Trichophoromyia pabloi,0.084,0.032,0.375,0.0
+321,Lutzomyia (Lutzomyia) alencari,0.084,0.063,0.373,0.0
+322,Trichophoromyia omagua,0.084,0.031,0.37,0.0
+323,Lutzomyia (Helcocyrtomyia) chavinensis,0.084,0.057,0.37,0.0
+324,Trichophoromyia napoensis,0.082,0.032,0.367,0.0
+325,Nyssomyia bibinae,0.082,0.03,0.365,0.0
+326,Psathyromyia (Forattiniella) texana,0.082,0.036,0.363,0.0
+327,Brumptomyia travassosi,0.081,0.047,0.361,0.0
+328,Warileya lumbrerasi,0.08,0.036,0.359,0.0
+329,Trichophoromyia melloi,0.08,0.042,0.357,0.0
+330,Micropygomyia (Micropygomyia) mangabeirana,0.08,0.045,0.355,0.0
+331,Brumptomyia devenanzii,0.08,0.036,0.354,0.0
+332,Trichophoromyia nautaensis,0.08,0.03,0.352,0.0
+333,Brumptomyia pentacantha,0.079,0.052,0.35,0.0
+334,Nyssomyia elongata,0.079,0.03,0.346,0.0
+335,Nyssomyia edentula,0.079,0.03,0.346,0.0
+336,Nyssomyia hernandezi,0.079,0.03,0.346,0.0
+337,Trichophoromyia velascoi,0.079,0.03,0.342,0.0
+338,Evandromyia (Barrettomyia) teratodes,0.078,0.059,0.34,0.0
+339,Psathyromyia (Forattiniella) castilloi,0.078,0.03,0.33,0.0
+340,Martinsmyia quadrispinosa,0.078,0.03,0.33,0.0
+341,Psathyromyia (Psathyromyia) lerayi,0.078,0.03,0.33,0.0
+342,Psathyromyia (Forattiniella) coutinhoi,0.078,0.038,0.33,0.0
+343,Nyssomyia pajoti,0.078,0.031,0.33,0.0
+344,Psathyromyia (Forattiniella) antezanai,0.078,0.03,0.33,0.0
+345,Psathyromyia (Forattiniella) barrettoi majuscula,0.078,0.03,0.33,0.0
+346,Trichophoromyia howardi,0.078,0.033,0.33,0.0
+347,Psathyromyia (Psathyromyia) soccula,0.078,0.03,0.33,0.0
+348,Martinsmyia waltoni,0.077,0.032,0.314,0.0
+349,Psathyromyia (Psathyromyia) guatemalensis,0.077,0.03,0.314,0.0
+350,Psathyromyia maya,0.077,0.03,0.314,0.0
+351,Trichophoromyia reburra,0.077,0.03,0.314,0.0
+352,Psathyromyia (Psathyromyia) pifanoi,0.077,0.033,0.314,0.0
+353,Psathyromyia (Psathyromyia) volcanensis,0.077,0.03,0.314,0.0
+354,Trichophoromyia bettinii,0.077,0.03,0.314,0.0
+355,Micropygomyia (Silvamyia) echinatopharynx,0.077,0.042,0.307,0.0
+356,Oligodontomyia oligodonta,0.076,0.032,0.305,0.0
+357,Trichophoromyia beniensis,0.076,0.03,0.303,0.0
+358,Nyssomyia singularis,0.076,0.031,0.301,0.0
+359,Nyssomyia fraihai,0.075,0.032,0.299,0.0
+360,Brumptomyia ortizi,0.075,0.055,0.297,0.0
+361,Lutzomyia (Castromyia) amarali,0.074,0.055,0.295,0.0
+362,Trichophoromyia uniniensis,0.074,0.032,0.29,0.0
+363,Martinsmyia gasparviannai,0.074,0.031,0.29,1.0
+364,Evandromyia (Barrettomyia) bahiensis,0.074,0.053,0.29,0.0
+365,Trichopygomyia wagleyi,0.074,0.052,0.29,0.0
+366,Trichophoromyia readyi,0.073,0.032,0.283,0.0
+367,Martinsmyia cipoensis,0.073,0.031,0.283,0.0
+368,Viannamyia caprina,0.073,0.031,0.283,0.0
+369,Psathyromyia (Forattiniella) pradobarrientosi,0.073,0.031,0.278,0.0
+370,Psathyromyia (Forattiniella) elizabethdorvalae,0.073,0.031,0.278,0.0
+371,Psathyromyia (Psathyromyia) pelloni,0.073,0.032,0.275,0.0
+372,Deanemyia samueli,0.073,0.037,0.273,0.0
+373,Lutzomyia (Castromyia) caligata,0.073,0.037,0.271,0.0
+374,Trichophoromyia gibba,0.073,0.031,0.266,0.0
+375,Trichophoromyia lopesi,0.073,0.031,0.266,0.0
+376,Trichophoromyia loretoensis,0.073,0.031,0.266,0.0
+377,Psathyromyia (Psathyromyia) barretti,0.073,0.031,0.266,0.0
+378,Psathyromyia (Forattiniella) naftalekatzi,0.073,0.032,0.266,0.0
+379,Evandromyia (Aldamyia) dubitans,0.072,0.035,0.26,0.0
+380,Psathyromyia (Psathyromyia) digitata,0.072,0.031,0.258,0.0
+381,Psathyromyia (Psathyromyia) souzacastroi,0.071,0.031,0.253,0.0
+382,Psathyromyia (Psathyromyia) dasymera,0.071,0.031,0.253,0.0
+383,Trichophoromyia dunhami,0.071,0.031,0.253,0.0
+384,Trichophoromyia ruii,0.071,0.032,0.253,0.0
+385,Dampfomyia (Dampfomyia) leohidalgoi,0.07,0.03,0.248,0.0
+386,Lutzomyia (Helcocyrtomyia) gonzaloi,0.07,0.03,0.199,0.0
+387,Lutzomyia (Helcocyrtomyia) caceresi,0.07,0.03,0.199,0.0
+388,Lutzomyia (Helcocyrtomyia) ceferinoi,0.07,0.03,0.199,0.0
+389,Lutzomyia (Helcocyrtomyia) cirrita,0.07,0.03,0.199,0.0
+390,Lutzomyia (Helcocyrtomyia) erwindonaldoi,0.07,0.03,0.199,0.0
+391,Lutzomyia (Helcocyrtomyia) imperatrix,0.07,0.03,0.199,0.0
+392,Lutzomyia (Helcocyrtomyia) guderiani,0.07,0.03,0.199,0.0
+393,Lutzomyia (Helcocyrtomyia) herreri,0.07,0.03,0.199,0.0
+394,Lutzomyia (Helcocyrtomyia) blancasi,0.07,0.03,0.199,0.0
+395,Lutzomyia (Helcocyrtomyia) kirigetiensis,0.07,0.03,0.199,0.0
+396,Lutzomyia (Helcocyrtomyia) larensis,0.07,0.03,0.199,0.0
+397,Lutzomyia (Helcocyrtomyia) monzonensis,0.07,0.03,0.199,0.0
+398,Lutzomyia (Helcocyrtomyia) botella,0.07,0.03,0.199,0.0
+399,Evandromyia (Evandromyia) ledezmaae,0.07,0.03,0.199,0.0
+400,Dampfomyia (Coromyia) vespertilionis,0.07,0.03,0.199,0.0
+401,Dampfomyia (Coromyia) viriosa,0.07,0.03,0.199,0.0
+402,Lutzomyia (Helcocyrtomyia) pallidithorax,0.07,0.03,0.199,0.0
+403,Dampfomyia (Coromyia) zeledoni,0.07,0.03,0.199,0.0
+404,Dampfomyia (Dampfomyia) anthophora,0.07,0.03,0.199,1.0
+405,Dampfomyia (Dampfomyia) atulapai,0.07,0.03,0.199,0.0
+406,Dampfomyia (Dampfomyia) dodgei,0.07,0.03,0.199,0.0
+407,Micropygomyia (Micropygomyia) lewisi,0.07,0.03,0.199,0.0
+408,Dampfomyia (Dampfomyia) insolita,0.07,0.03,0.199,0.0
+409,Evandromyia (Aldamyia) hashiguchii,0.07,0.03,0.199,0.0
+410,Dampfomyia (Dampfomyia) rosabali,0.07,0.03,0.199,0.0
+411,Dampfomyia inusitata,0.07,0.03,0.199,0.0
+412,Dampfomyia delpozoi,0.07,0.03,0.199,0.0
+413,Lutzomyia (Helcocyrtomyia) osornoi,0.07,0.03,0.199,0.0
+414,Lutzomyia (Helcocyrtomyia) galatiae,0.07,0.03,0.199,0.0
+415,Lutzomyia (Helcocyrtomyia) rispaili,0.07,0.03,0.199,0.0
+416,Dampfomyia (Coromyia) disneyi,0.07,0.03,0.199,0.0
+417,Trichopygomyia witoto,0.07,0.03,0.199,0.0
+418,Trichopygomyia turelli,0.07,0.03,0.199,0.0
+419,Trichopygomyia martinezi,0.07,0.03,0.199,0.0
+420,Trichopygomyia ferroae,0.07,0.03,0.199,0.0
+421,Warileya yungasi,0.07,0.035,0.199,0.0
+422,Lutzomyia (Helcocyrtomyia) strictivilla,0.07,0.03,0.199,0.0
+423,Dampfomyia (Coromyia) aquilonia,0.07,0.03,0.199,0.0
+424,Lutzomyia vargasi,0.07,0.03,0.199,0.0
+425,Lutzomyia infusca,0.07,0.03,0.199,0.0
+426,Lutzomyia (Tricholateralis) legerae,0.07,0.03,0.199,0.0
+427,Oligodontomyia isopsi,0.07,0.03,0.199,0.0
+428,Dampfomyia (Coromyia) vesicifera,0.07,0.03,0.199,0.0
+429,Lutzomyia (Helcocyrtomyia) velezi,0.07,0.03,0.199,0.0
+430,Lutzomyia (Helcocyrtomyia) tortura,0.07,0.03,0.199,0.0
+431,Dampfomyia (Coromyia) isovespertilionis,0.07,0.03,0.199,0.0
+432,Lutzomyia (Helcocyrtomyia) wattsi,0.07,0.03,0.199,0.0
+433,Lutzomyia (Lutzomyia) fonsecai,0.07,0.03,0.199,0.0
+434,Lutzomyia (Lutzomyia) matiasi,0.07,0.03,0.199,0.0
+435,Trichophoromyia meirai,0.069,0.032,0.149,0.0
+436,Trichophoromyia octavioi,0.069,0.032,0.149,0.0
+437,Micropygomyia (Micropygomyia) cayennensis braci,0.068,0.03,0.126,0.0
+438,Micropygomyia (Micropygomyia) ancashensis,0.068,0.03,0.126,0.0
+439,Warileya fourgassiensis,0.068,0.034,0.126,0.0
+440,Micropygomyia (Micropygomyia) durani,0.068,0.03,0.126,0.0
+441,Micropygomyia (Coquillettimyia) oppidana,0.068,0.03,0.126,0.0
+442,Micropygomyia (Micropygomyia) cayennensis cruzi,0.068,0.03,0.126,0.0
+443,Micropygomyia (Coquillettimyia) californica,0.068,0.03,0.126,0.0
+444,Micropygomyia (Coquillettimyia) apache,0.068,0.03,0.126,0.0
+445,Micropygomyia (Micropygomyia) cayennensis hispaniolae,0.068,0.03,0.126,0.0
+446,Micropygomyia xerophila,0.068,0.03,0.126,0.0
+447,Micropygomyia (Micropygomyia) ctenidophora,0.068,0.029,0.126,0.0
+448,Warileya leponti,0.068,0.034,0.126,0.0
+449,Micropygomyia (Micropygomyia) cayennensis jamaicensis,0.068,0.03,0.126,0.0
+450,Micropygomyia (Coquillettimyia) stewarti,0.068,0.03,0.126,0.0
+451,Micropygomyia (Sauromyia) pratti,0.068,0.03,0.126,0.0
+452,Micropygomyia (Sauromyia) huacalquensis,0.068,0.03,0.126,0.0
+453,Micropygomyia (Sauromyia) saccai,0.068,0.03,0.126,0.0
+454,Micropygomyia (Micropygomyia) cayennensis viequesensis,0.068,0.03,0.126,0.0
+455,Micropygomyia (Sauromyia) machupicchu,0.068,0.03,0.126,0.0
+456,Micropygomyia (Micropygomyia) cayennensis puertoricensis,0.068,0.03,0.126,0.0
+457,Micropygomyia (Sauromyia) atroclavata,0.068,0.03,0.126,0.0
+458,Micropygomyia (Micropygomyia) yencanensis,0.068,0.03,0.126,0.0
+459,Micropygomyia (Coquillettimyia) vindicator,0.068,0.03,0.104,0.0
+460,Lutzomyia (Tricholateralis) maesi,0.068,0.032,0.102,0.0
+461,Oligodontomyia toroensis,0.068,0.03,0.097,0.0
+462,Evandromyia (Aldamyia) apurinan,0.068,0.057,0.097,1.0
+463,Lutzomyia manciola,0.068,0.03,0.097,0.0
+464,Lutzomyia ignacioi,0.068,0.03,0.097,0.0
+465,Sciopemyia pennyi,0.067,0.034,0.092,0.0
+466,Lutzomyia ponsi,0.067,0.029,0.087,0.0
+467,Micropygomyia (Micropygomyia) absonodonta,0.067,0.029,0.087,0.0
+468,Lutzomyia (Helcocyrtomyia) adamsi,0.067,0.03,0.087,0.0
+469,Trichopygomyia gantieri,0.067,0.03,0.087,0.0
+470,Lutzomyia (Lutzomyia) ischyracantha,0.066,0.036,0.082,0.0
+471,Micropygomyia (Sauromyia) ferreirana,0.065,0.04,0.08,1.0
+472,Expapillata cerradincola,0.062,0.036,0.078,0.0
+473,Evandromyia (Evandromyia) georgii,0.062,0.034,0.076,0.0
+474,Lutzomyia (Lutzomyia) souzalopesi,0.062,0.036,0.074,0.0
+475,Evandromyia (Evandromyia) tarapacaensis,0.062,0.033,0.072,0.0
+476,Evandromyia (Evandromyia) gaucha,0.062,0.033,0.07,0.0
+477,Micropygomyia (Sauromyia) vonatzingeni,0.061,0.035,0.068,0.0
+478,Evandromyia (Aldamyia) aldafalcaoae,0.061,0.035,0.066,0.0
+479,Migonemyia (Blancasmyia) moucheti,0.06,0.033,0.064,0.0
+480,Brumptomyia angelae,0.06,0.037,0.058,0.0
+481,Trichopygomyia conviti,0.06,0.032,0.058,0.0
+482,Migonemyia (Migonemyia) rabelloi,0.06,0.032,0.058,0.0
+483,Evandromyia (Evandromyia) sipani,0.06,0.032,0.058,0.0
+484,Lutzomyia (Lutzomyia) falquetoi,0.06,0.032,0.058,0.0
+485,Micropygomyia (Micropygomyia) pilosa,0.06,0.032,0.058,0.0
+486,Evandromyia (Evandromyia) correalimai,0.059,0.033,0.038,0.0
+487,Evandromyia (Evandromyia) inpai,0.059,0.032,0.038,0.0
+488,Trichopygomyia rondoniensis,0.059,0.032,0.038,0.0
+489,Micropygomyia breviducta,0.059,0.033,0.038,0.0
+490,Trichopygomyia ratcliffei,0.059,0.032,0.038,0.0
+491,Trichopygomyia pinna,0.059,0.032,0.038,0.0
+492,Trichopygomyia elegans,0.059,0.032,0.038,0.0
+493,Micropygomyia (Sauromyia) zikani,0.059,0.033,0.038,0.0
+494,Deanemyia derelicta,0.059,0.033,0.038,0.0
+495,Pressatia duncanae,0.059,0.032,0.038,0.0
+496,Lutzomyia (Tricholateralis) araracuarensis,0.059,0.033,0.038,0.0
+497,Lutzomyia (Castromyia) castroi,0.059,0.033,0.038,0.0
+498,Evandromyia (Evandromyia) tylophalla,0.059,0.033,0.038,0.0
+499,Evandromyia (Barrettomyia) petropolitana,0.059,0.032,0.038,0.0
+500,Evandromyia (Aldamyia) orcyi,0.059,0.033,0.023,0.0
+501,Lutzomyia (Lutzomyia) elizabethrangelae,0.059,0.033,0.021,0.0
+502,Deanemyia appendiculata,0.059,0.033,0.018,0.0
+503,Deanemyia ramirezi,0.059,0.032,0.018,0.0
+504,Evandromyia (Aldamyia) williamsi,0.059,0.032,0.018,0.0
+505,Evandromyia (Barrettomyia) callipyga,0.057,0.033,0.014,0.0
+506,Evandromyia (Barrettomyia) costalimai,0.057,0.033,0.011,0.0
+507,Evandromyia (Evandromyia) wilsoni,0.057,0.033,0.011,0.0
+508,Brumptomyia orlandoi,0.056,0.037,0.006,0.0
+509,Brumptomyia mangabeirai,0.056,0.037,0.006,0.0
+510,Brumptomyia bragai,0.056,0.037,0.006,0.0
+511,Migonemyia (Blancasmyia) cerqueirai,0.056,0.033,0.002,0.0
